@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nguyễn Duy Store</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="pen.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Nguyễn Duy Store </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Trang chủ <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link" href="#" id="navbarDropdown"> Sản phẩm </a>
+            <div class="dropdown-content">
+              <a class="dropdown-item" href="pen.html">Viết</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="book.html">Tập vở sổ sách</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="dchs.html">Dụng cụ học sinh</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="dcdv.html">Dụng cụ để vẽ</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="dochoi.html">Đồ chơi</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="card.html">Thẻ cào điện thoại</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Tìm kiếm"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Tìm kiếm
+          </button>
+        </form>
+        <a class="nav-link active carts" href="cart.html">
+          <i
+            class="fas fa-shopping-basket fa-2x"
+            id="numberProducts"
+            style="color: black"
+            >(0)</i
+          >
+        </a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="butbi" src="imgs/dchs1.jpg" alt="tnw-logo" />
+          </div>
+        </div>
+        <h5>Thước nhựa cứng</h5>
+        <span class="add">
+          <i class="fas fa-shopping-basket"></i>
+          <span className="add-cart">Thêm vào giỏ hàng</span>
+        </span>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="butbi" src="imgs/dchs2.jpg" alt="tnw-logo" />
+          </div>
+        </div>
+        <h5>Thước nhựa dẻo</h5>
+        <span class="add">
+          <i class="fas fa-shopping-basket"></i>
+          <span className="add-cart">Thêm vào giỏ hàng</span>
+        </span>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="butbi" src="imgs/dchs3.jpg" alt="tnw-logo" />
+          </div>
+        </div>
+        <h5>Gôm đen</h5>
+        <span class="add">
+          <i class="fas fa-shopping-basket"></i>
+          <span className="add-cart">Thêm vào giỏ hàng</span>
+        </span>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="butbi" src="imgs/dchs4.jpg" alt="tnw-logo" />
+          </div>
+        </div>
+        <h5>Chuốt/gọt bút chì</h5>
+        <span class="add">
+          <i class="fas fa-shopping-basket"></i>
+          <span className="add-cart">Thêm vào giỏ hàng</span>
+        </span>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="butbi" src="imgs/dchs5.jpg" alt="tnw-logo" />
+          </div>
+        </div>
+        <h5>Compa</h5>
+        <span class="add">
+          <i class="fas fa-shopping-basket"></i>
+          <span className="add-cart">Thêm vào giỏ hàng</span>
+        </span>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="butbi" src="imgs/dchs6.jpg" alt="tnw-logo" />
+          </div>
+        </div>
+        <h5>Bìa bao kiếng</h5>
+        <span class="add">
+          <i class="fas fa-shopping-basket"></i>
+          <span className="add-cart">Thêm vào giỏ hàng</span>
+        </span>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="butbi" src="imgs/dchs7.jpg" alt="tnw-logo" />
+          </div>
+        </div>
+        <h5>Phấn</h5>
+        <span class="add">
+          <i class="fas fa-shopping-basket"></i>
+          <span className="add-cart">Thêm vào giỏ hàng</span>
+        </span>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="butbi" src="imgs/dchs8.jpg" alt="tnw-logo" />
+          </div>
+        </div>
+        <h5>Bảng phấn</h5>
+        <span class="add">
+          <i class="fas fa-shopping-basket"></i>
+          <span className="add-cart">Thêm vào giỏ hàng</span>
+        </span>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="butbi" src="imgs/dchs9.jpg" alt="tnw-logo" />
+          </div>
+        </div>
+        <h5>Hộp viết</h5>
+        <span class="add">
+          <i class="fas fa-shopping-basket"></i>
+          <span className="add-cart">Thêm vào giỏ hàng</span>
+        </span>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="butbi" src="imgs/dchs10.jpg" alt="tnw-logo" />
+          </div>
+        </div>
+        <h5>Kéo</h5>
+        <span class="add">
+          <i class="fas fa-shopping-basket"></i>
+          <span className="add-cart">Thêm vào giỏ hàng</span>
+        </span>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="butbi" src="imgs/dchs11.jpg" alt="tnw-logo" />
+          </div>
+        </div>
+        <h5>Bộ lắp ráp</h5>
+        <span class="add">
+          <i class="fas fa-shopping-basket"></i>
+          <span className="add-cart">Thêm vào giỏ hàng</span>
+        </span>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="butbi" src="imgs/dchs12.jpg" alt="tnw-logo" />
+          </div>
+        </div>
+        <h5>Bộ may</h5>
+        <span class="add">
+          <i class="fas fa-shopping-basket"></i>
+          <span className="add-cart">Thêm vào giỏ hàng</span>
+        </span>
+      </div>
+    </div>
+    <!-- Load jquery trước khi load bootstrap js -->
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="dchs.js"></script>
+  </body>
+</html>

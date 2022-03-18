@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nguyễn Duy Store</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="cart.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Nguyễn Duy Store </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Trang chủ <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link" href="#" id="navbarDropdown"> Sản phẩm </a>
+            <div class="dropdown-content">
+              <a class="dropdown-item" href="pen.html">Viết</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="book.html">Tập vở sổ sách</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="dchs.html">Dụng cụ học sinh</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="dcdv.html">Dụng cụ để vẽ</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="dochoi.html">Đồ chơi</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="card.html">Thẻ cào điện thoại</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Tìm kiếm"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Tìm kiếm
+          </button>
+        </form>
+        <a class="nav-link active carts" href="#">
+          <i
+            class="fas fa-shopping-basket fa-2x"
+            id="numberProducts"
+            style="color: black"
+            >(0)</i
+          >
+        </a>
+      </div>
+    </nav>
+
+    <div class="products-container">
+      <div class="product-header">
+        <h5 class="product-title tieude">SẢN PHẨM</h5>
+        <h5 class="price">GIÁ TIỀN</h5>
+        <h5 class="quantity">SỐ LƯỢNG</h5>
+        <h5 class="total">TỔNG</h5>
+      </div>
+      <div class="products"></div>
+    </div>
+
+    <!-- Load jquery trước khi load bootstrap js -->
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="cart.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

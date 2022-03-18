@@ -1,0 +1,189 @@
+/*---------------Header--------------*/
+.products-container h5 {
+  margin-top: 5%;
+  font-size: 20px;
+}
+.product-header {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.product-title {
+  display: inline-block;
+  width: 60%;
+}
+.price {
+  text-align: center;
+  width: 10%;
+  display: inline-block;
+  margin-top: 5%;
+  vertical-align: top;
+}
+.quantity {
+  text-align: center;
+  width: 10%;
+  display: inline-block;
+  margin-top: 5%;
+  vertical-align: top;
+}
+.total {
+  text-align: center;
+  width: 10%;
+  display: inline-block;
+  margin-top: 5%;
+  vertical-align: top;
+}
+/*-------------------Product----------*/
+.product {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.product img {
+  width: 100px;
+  height: auto;
+  margin-top: 5%;
+}
+.tieude {
+  text-align: center;
+}
+.product-title .remove {
+  padding: 0 5%;
+}
+.basketTotalContainer {
+  text-align: center;
+}
+.basketTotalTitle {
+  display: inline-block;
+}
+.basketTotalContainer button {
+  margin-left: 5%;
+  display: inline-block;
+  margin-bottom: 5%;
+  font-size: 20px;
+  border-width: 0;
+  background-color: #95cd41;
+  color: white;
+  border-radius: 10px;
+  padding: 12px;
+}
+.remove {
+  cursor: pointer;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  pointer-events: all;
+}
+.popUp {
+  border: 1px solid black;
+  position: fixed;
+  padding: 5%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background-color: white;
+  width: 600px;
+  max-width: 70%;
+}
+.popUp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.popUp-header h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.popUp-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 7px;
+}
+.popUp-body button {
+  font-size: 20px;
+  border-width: 0;
+  background-color: #95cd41;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.tat_popUp {
+  display: none;
+}
+#contact-form {
+  margin-top: 5%;
+}
+#contact-form label {
+  width: 35%;
+}
+@media only screen and (max-width: 600px) {
+  .products-container h5 {
+    font-size: 10px;
+    margin-left: 0;
+    margin-bottom: 5%;
+  }
+  .product-title img {
+    width: 67%;
+    height: auto;
+    background-color: violet;
+    margin-bottom: 10%;
+  }
+  .product-title .remove {
+    width: 30%;
+  }
+  .product-title .remove {
+    padding: 0 0;
+  }
+  .basketTotalTitle,
+  .basketTotalContainer button {
+    font-size: 15px;
+  }
+  .popUp h5 {
+    font-size: 15px;
+  }
+  #contact-form {
+    width: 500px;
+  }
+  #contact-form label {
+    width: 100%;
+  }
+  #contact-form .input {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .popUp {
+    width: 400px;
+    height: 70%;
+  }
+  #contact-form button {
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .products-container h5 {
+    font-size: 9px;
+  }
+  .product-title img {
+    width: 66%;
+    height: auto;
+    background-color: violet;
+  }
+  .product-title .remove {
+    width: 30%;
+  }
+  .product-title span {
+    font-size: 15px;
+  }
+}
